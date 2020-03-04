@@ -1,0 +1,54 @@
+﻿{
+   "ContextClassName": "ActechContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "DoNotCombineNamespace": false,
+   "IdReplace": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": "Data",
+   "OutputPath": "Models",
+   "ProjectRootNamespace": "ACTech",
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Course]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Education]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Employment]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Grade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Student Address]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Student Company]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Student Contact]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Student]"
+      }
+   ],
+   "UseDatabaseNames": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseSpatial": false
+}
