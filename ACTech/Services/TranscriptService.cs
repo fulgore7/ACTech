@@ -16,6 +16,7 @@ namespace ACTech.Services
     {
         public static String GetDataDir;
         public static string fileName = "MailMerge.ACTech" + DateTime.Now.ToShortDateString() +".doc" ;
+        private EmailService _emailService = new EmailService();
         public void CreateTranscript(List<Transcript> grade)
         {
             // The path to the documents directory.
@@ -31,6 +32,7 @@ namespace ACTech.Services
             
             dataDir = dataDir + GetOutputFilePath(fileName);
             doc.Save(dataDir);
+            _emailService.CreateEmail(dataDir);
         }
         private static string GetDataDir_Data()
         {
