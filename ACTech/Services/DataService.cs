@@ -35,7 +35,7 @@ namespace ACTech.Services
                     CityStateZip = G.Student.StudentAddresses.FirstOrDefault<StudentAddress>().City.Trim() + ", " + G.Student.StudentAddresses.FirstOrDefault<StudentAddress>().State +" " + G.Student.StudentAddresses.FirstOrDefault<StudentAddress>().Zip,
                     Phone = G.Student.StudentContacts.FirstOrDefault<StudentContact>().HomePhone,
                     Sem = G.Sem,
-                    CourseName = G.Course.Course1,
+                    CourseName = G.Course.Course1.Trim(),
                     PreAssessment = G.PreAssessment,
                     S1 = G.S1,
                     S2 = G.S2,
