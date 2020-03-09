@@ -27,7 +27,7 @@ namespace ACTech.Services
                 "<br><hr><br><font color=blue>This is a test eml file which will be converted to msg format.</font>";
             // Add attachments
             message.Attachments.Add(new Attachment(filename));
-            
+            client.Send();
             
         }
     }
